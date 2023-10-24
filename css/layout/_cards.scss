@@ -1,0 +1,104 @@
+.section-cards {
+  background-image: url(../../img/hero-bg.svg);
+  background-color: var(--color-grey-dark-1);
+  max-width: 100vw;
+  background-position: top;
+  padding: 16rem 3rem;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  position: static;
+}
+
+.card-container {
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  position: relative;
+
+  &:hover {
+    .card {
+      transform: translateY(-10%) scale(0.98);
+    }
+  }
+}
+
+.card {
+  background-color: var(--color-grey-dark-5);
+  width: 100%;
+  // height: auto;
+  border-radius: 6px;
+  padding: 6rem 5rem;
+  z-index: 9;
+  cursor: pointer;
+  transition: all 0.3s;
+  position: sticky;
+  &__no {
+    color: var(--color-white);
+    font-size: 1.6rem;
+    margin-bottom: 10rem;
+  }
+
+  &__icon {
+    color: var(--color-white);
+    font-size: 4rem;
+    background-color: #432df4;
+    padding: 2rem;
+    border-radius: 12px;
+    margin-bottom: 3rem;
+  }
+
+  &__heading {
+    color: var(--color-white);
+    font-size: 3.6rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    // margin-right: 3rem;
+  }
+
+  &__text {
+    color: var(--color-grey-dark-4);
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.5;
+    // margin-right: 4rem;
+  }
+}
+
+.card__btn {
+  background-color: #432df4;
+  padding: 2rem 9rem;
+  border: none;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  font-size: 1.6rem;
+  color: var(--color-white);
+  z-index: 1;
+  transform: translateY(-100%) translateX(15%);
+  transition: all 0.2s;
+  cursor: pointer;
+  position: absolute;
+
+  &:hover {
+    background-color: #5642f5;
+  }
+}
+
+.card-1 {
+  animation: moveToUp 0.75s;
+  h4 {
+    margin-right: 4rem;
+  }
+}
+
+.card-2 {
+  animation: moveToUp 1s;
+}
+
+.card-3 {
+  animation: moveToUp 1.25s;
+}

@@ -1,0 +1,143 @@
+.section-services {
+  padding: 16rem 4rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 8rem;
+
+  animation: opac 1.75s;
+
+  &__tag {
+    color: #432df4;
+    font-weight: 500;
+  }
+
+  &__heading {
+    color: var(--color-grey-dark-1);
+    padding: 0.6rem 0 2.6rem 0;
+  }
+
+  &__text {
+    color: var(--color-grey-dark-1);
+    font-size: 2rem;
+    font-weight: 400;
+    width: 65%;
+    text-align: center;
+  }
+}
+
+.service-1 {
+  animation: moveToUp 1s;
+}
+.service-2 {
+  animation: moveToUp 1.5s;
+}
+.service-3 {
+  animation: moveToUp 2s;
+}
+
+.our-services,
+.blogs {
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+  padding-bottom: 12rem;
+
+  .service,
+  .blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+      display: inline-block;
+      width: 100%;
+      height: auto;
+      aspect-ratio: 100/83;
+      object-fit: cover;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    &__link {
+      display: inline-block;
+      font-size: 2rem;
+      font-weight: 700;
+      text-decoration: none;
+      color: var(--color-grey-dark-1);
+      padding: 3rem 0 2rem 0;
+      transition: all 0.2s;
+
+      &:hover,
+      &:active {
+        color: #432df4;
+      }
+    }
+
+    &__about {
+      font-size: 1.6rem;
+      text-align: center;
+      width: 80%;
+      line-height: 1.6;
+    }
+  }
+}
+
+.projects {
+  display: flex;
+  margin-bottom: 5rem;
+  gap: 8rem;
+}
+
+.section-blog {
+  padding: 16rem 2rem 16rem 2rem;
+
+  .blog {
+    &__header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 8rem;
+      // align-content: center;
+
+      .heading {
+        font-size: 3.6rem;
+        font-weight: 700;
+        color: var(--color-grey-dark-1);
+      }
+
+      button {
+        font-size: 1.5rem;
+        padding: 1.4rem 2.8rem;
+      }
+    }
+
+    &__link {
+      text-align: center;
+    }
+
+    &__about {
+      padding-bottom: 5rem;
+      width: 100%;
+    }
+  }
+}
+
+.blog-1 {
+  animation: moveToUp 1s;
+}
+
+.blog-2 {
+  animation: moveToUp 1.5s;
+}
+.blog-3 {
+  animation: moveToUp 2s;
+}
+
+.blog__header {
+  padding: 0 2rem;
+
+  animation: opac 1.75s;
+}

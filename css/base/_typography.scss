@@ -1,0 +1,39 @@
+.heading-primary {
+  font-size: 6rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: var(--color-white);
+  line-height: 1.1;
+}
+
+.heading-secondary {
+  font-size: 6rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: var(--color-white);
+  line-height: 1.1;
+}
+
+.heading-tertiary {
+  font-size: 4.6rem;
+  font-weight: 800;
+  line-height: 1.15;
+  color: var(--color-white);
+}
+
+.heading-quaternary {
+  font-size: 2.2rem;
+  font-weight: 800;
+  line-height: 1.1;
+  color: var(--color-white);
+}
+
+.hero-tag,
+.tag {
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: -1px;
+  color: #f5e760;
+  text-decoration: underline;
+  margin-bottom: 2.4rem;
+}

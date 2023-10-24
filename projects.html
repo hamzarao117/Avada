@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/main.css" />
+    <script defer src="script.js"></script>
+
+    <title>Practice Page</title>
+  </head>
+  <body>
+    <header class="header-projects ">
+      <nav class="nav  section ">
+        <img src="img/logo.png" alt="logo" class="nav__logo" />
+        <ul class="nav__list">
+          <li><a href="/home.html" class="nav__btn">Home</a></li>
+          <li><a href="/aboutUs.html" class="nav__btn">About us</a></li>
+          <li><a href="/projects.html" class="nav__btn">Projects</a></li>
+          <li>
+
+            <a href="/" class="nav__btn drop-btn"
+              >Services
+              <ion-icon
+                name="chevron-down-outline"
+                class="drop__icon"
+              ></ion-icon
+            ></a>
+          </li>
+
+          <ul class="dropdown ">
+            <li>
+              <a href="#" class="dropdown__link dropdown__link--1"
+                >Software Development</a
+              >
+            </li>
+            <li>
+              <a href="#" class="dropdown__link">Mobile App Development</a>
+            </li>
+            <li>
+              <a href="#" class="dropdown__link">Web Development</a>
+            </li>
+            <li>
+              <a href="#" class="dropdown__link dropdown__link--4"
+                >Game Development</a
+              >
+            </li>
+          </ul>
+          <li><a href="/blog.html" class="nav__btn">Blog</a></li>
+        </ul>
+
+        <button class="btn  mr-small">
+          <span class="btn__visible">Get in touch!</span>
+          <span class="btn__invisible">Get in touch!</span>
+        </button>
+      </nav>
+
+      <div class="hero hero-projects">
+        <div class="hero-projects__text-box">
+          <h1 class="heading-primary">
+            From Idea To Execution: Our Awesome Projects
+          </h1>
+
+          <p class="hero-projects__text">
+            Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui
+            cras ultricies.
+          </p>
+
+          <button class="btn btn-blue mr-small">
+            <span class="btn__visible">View all projects</span>
+            <span class="btn__invisible">View all projects</span>
+          </button>
+        </div>
+
+        <div class="wrappers">
+          <div class="wrappers__sec">
+            <div class="wrapper wrapper--1">
+              <ion-icon
+                name="phone-portrait-outline"
+                class="wrapper__icon"
+              ></ion-icon>
+
+              <h4 class="wrapper__heading">Web & Mobile</h4>
+              <p class="wrapper__text">
+                Sed porttitor lectus nibh curabitur arcu erat.
+              </p>
+            </div>
+
+            <div class="wrapper wrapper--2">
+              <ion-icon name="layers-outline" class="wrapper__icon"></ion-icon>
+
+              <h4 class="wrapper__heading">Software Engineering</h4>
+              <p class="wrapper__text">
+                Sed porttitor lectus nibh curabitur arcu erat.
+              </p>
+            </div>
+          </div>
+
+          <div class="wrapper wrapper--3">
+            <ion-icon
+              name="stats-chart-outline"
+              class="wrapper__icon"
+            ></ion-icon>
+
+            <h4 class="wrapper__heading">Game Development</h4>
+            <p class="wrapper__text">
+              Vivamus magna justo, lacinia eget consectetur.
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="latest-projects m-padding ">
+
+      <div class="latest-projects__tag ">Latest Projects</div>
+<div class="latest-projects__grid section">
+
+      <div class="project project-1  ">
+        <div class="project__tag mb-large">App</div>
+        <h3 class="heading-tertiary mb-huge">
+          Project Chroma : A color picker and palette generator tool
+        </h3>
+
+        <button class="btn btn-blue mt-huge">
+          View Project
+        </button>
+      </div>
+      <div class="project project-2 ">
+        <div class="project__tag mb-large">App Development</div>
+        <h3 class="heading-tertiary mb-huge">
+          CodeJam : An app that allows programmers to collaborate
+        </h3>
+
+        <button class="btn btn-blue mt-huge">
+          View Project
+        </button>
+      </div>
+      <div class="project project-3  ">
+        <div class="project__tag mb-large">Software</div>
+        <h3 class="heading-tertiary mb-huge">
+          Flasky : Lightweight and modular web framework
+        </h3>
+
+        <button class="btn btn-blue mt-huge">
+          View Project
+        </button>
+      </div>
+      <div class="project project-4 ">
+        <div class="project__tag mb-large">App</div>
+        <h3 class="heading-tertiary mb-huge">
+          Signal: A real-time chat and collaboration platform
+        </h3>
+
+        <button class="btn btn-blue mt-huge">
+          View Project
+        </button>
+      </div>
+    </section>
+
+    <section class="projects-info projects-info-projects">
+      <div class="projects-info__text-box section hidden">
+        <div class="tag mb-large">Avada Programmer</div>
+        <h2 class="heading-secondary ">
+          Hello! We Are A Group Of Skilled Developers And Programmers.
+        </h2>
+
+        <p class="projects-info__text">
+          We have experience in working with different platforms, systems, and
+          devices to create products that are compatible and accessible.
+        </p>
+
+        <button class="btn btn-blue mr-small">
+          <span class="btn__visible">Learn about our services</span>
+          <span class="btn__invisible">Learn about our services</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+    <footer class="footer">
+      <div class="contact">
+        <div class="contact__mail">
+          <a href="#">Mail:</a>
+          <a href="#">info@company.com</a>
+        </div>
+        <div class="contact__phone">
+          <a href="#">Phone:</a>
+          <a href="#">(555) 802-1234</a>
+        </div>
+        <div class="contact__social">
+          <ion-icon name="logo-facebook" title="facebook"></ion-icon>
+          <ion-icon name="logo-twitter" title="twitter"></ion-icon>
+          <ion-icon name="logo-instagram" title="instagram"></ion-icon>
+          <ion-icon name="logo-youtube" title="youtube"></ion-icon>
+        </div>
+      </div>
+
+      <div class="main-footer">
+        <div class="explore">
+          <p class="main-footer__tag">Explore</p>
+          <a href="#">Software</a>
+          <a href="#">Mobile App</a>
+          <a href="#">Web Design</a>
+          <a href="#">Game Design</a>
+        </div>
+
+        <div class="about">
+          <div class="connect">
+            <p class="main-footer__tag">Connect</p>
+            <a href="#" class="anim-el">Who We Are</a>
+            <a href="#" class="anim-el">Our Team</a>
+            <a href="#" class="anim-el">Faq</a>
+            <a href="#" class="anim-el">Testimonials</a>
+          </div>
+
+          <div class="legal">
+            <p class="main-footer__tag">Legal</p>
+            <a href="#" class="anim-el">Privacy Policy</a>
+            <a href="#" class="anim-el">Terms of Service</a>
+            <a href="#" class="anim-el">Press</a>
+          </div>
+        </div>
+      </div>
+
+      <p class="copyright">
+        &copy; 2012 - 2023 | Avada Website Builder by
+        <span>ThemeFusion</span> | All Rights Reserved | Powered by
+        <span>WordPress</span>
+      </p>
+    </footer>
+  </body>
+</html>

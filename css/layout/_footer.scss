@@ -1,0 +1,139 @@
+.footer {
+  background-color: #0e0f11;
+  padding: 6.8rem 2rem;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 4rem;
+
+  & > * {
+    border: 1px solid var(--color-grey-dark-3);
+    padding: 2.4rem 11.5rem;
+    font-size: 1.6rem;
+
+    color: var(--color-white);
+
+    transition: all 0.2s;
+  }
+
+  &__mail > *,
+  &__phone > * {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.2s;
+
+    &:hover {
+      color: #f5e760;
+    }
+  }
+
+  &__social {
+    display: flex;
+    gap: 2.4rem;
+    font-size: 2rem;
+
+    & > * {
+      &:hover {
+        color: #f5e760;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.main-footer {
+  display: flex;
+  padding: 1.8rem;
+  gap: 12rem;
+  &__tag {
+    font-size: 1.5rem;
+    color: var(--color-white);
+  }
+}
+
+.explore {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2.4rem;
+  width: 55%;
+
+  a {
+    font-size: 4.8rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--color-white);
+    border-top: 2px solid var(--color-grey-dark-2);
+    padding-top: 2.4rem;
+    transition: all 0.2s;
+    &:hover {
+      color: #f5e760;
+      border-top: 2px solid #f5e760;
+    }
+  }
+}
+
+.about {
+  display: flex;
+  gap: 12rem;
+  justify-content: center;
+  margin-left: auto;
+
+  .legal {
+    margin-right: 2rem;
+  }
+
+  .connect,
+  .legal {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    a {
+      font-size: 1.8rem;
+      text-decoration: none;
+      color: var(--color-white);
+      position: relative;
+
+      &::before {
+        content: "";
+        background-color: #d85927;
+        position: absolute;
+        top: -50%;
+        left: 0;
+        height: 2px;
+        width: 16rem;
+        transition: all 0.35s ease-out;
+        opacity: 0;
+      }
+
+      &:hover::before {
+        top: 125%;
+        left: 0;
+        opacity: 1;
+      }
+
+      &:active::before {
+        left: 0;
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.copyright {
+  font-size: 1.6rem;
+  color: #f5e760;
+  padding: 8rem 2rem 0 2.2rem;
+
+  span {
+    transition: all 0.2s;
+    &:hover {
+      color: #d85927;
+      cursor: pointer;
+    }
+  }
+}

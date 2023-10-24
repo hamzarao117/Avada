@@ -1,0 +1,103 @@
+.spnonsers {
+  background-color: var(--color-grey-dark-1);
+  padding: 8rem 5rem;
+
+  &__logo {
+    display: flex;
+    justify-content: space-between;
+
+    & > * {
+      height: 100%;
+      width: auto;
+    }
+
+    &--1 {
+      animation: opac 0.3s steps(1), opac 1s steps(1);
+    }
+    &--2 {
+      animation: opac 0.5s steps(1), opac 1.2s steps(1);
+    }
+    &--3 {
+      animation: opac 0.7s steps(1), opac 1.4s steps(1);
+    }
+    &--4 {
+      animation: opac 0.9s steps(1), opac 1.6s steps(1);
+    }
+    &--5 {
+      animation: opac 1.1s steps(1), opac 1.8s steps(1);
+    }
+  }
+}
+
+.projects-info-home {
+  background: rgba(10, 10, 10, 0.6) url(../../img/banner-1.jpg);
+}
+
+/////////////////////////////////////////////////
+/// her0-2
+
+.hero-2 {
+  background-color: var(--color-grey-dark-1);
+}
+
+.app-development {
+  background-color: var(--color-grey-dark-1);
+  padding: 16rem 4rem;
+
+  .mobile-app {
+    // display: flex;
+    // align-items: center;
+    position: relative;
+    border-radius: 25px;
+    background-color: var(--color-grey-dark-5);
+    padding: 10rem 2rem 10rem 54rem;
+
+    animation: moveToUp 1.5s;
+
+    &__img {
+      height: auto;
+      width: 35%;
+      position: absolute;
+      bottom: 0;
+      left: 6%;
+    }
+
+    &__about {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      flex-wrap: wrap;
+      flex-direction: column;
+      gap: 2rem;
+      // padding-left: 24rem;
+      width: 85%;
+
+      &--heading {
+        font-size: 3.4rem;
+        text-align: center;
+      }
+
+      &--text {
+        font-size: 2rem;
+        font-weight: 500;
+        line-height: 1.4;
+        color: var(--color-grey-dark-4);
+        text-align: center;
+        align-self: start;
+        align-self: center;
+        width: 95%;
+      }
+
+      button {
+        background-color: var(--color-grey-dark-5);
+        // width: 50%;
+        align-self: start;
+        align-self: center;
+
+        &:hover {
+          background-color: var(--color-grey-dark-1);
+        }
+      }
+    }
+  }
+}

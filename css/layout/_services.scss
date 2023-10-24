@@ -1,0 +1,55 @@
+.services {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14rem;
+  background-color: var(--color-grey-dark-1);
+  padding: 4rem 6rem 12rem 4rem;
+
+  img {
+    width: 36%;
+    height: auto;
+    border-radius: 8px;
+    animation: moveToRight 1.5s 1s;
+  }
+}
+
+.fusion {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 5.6rem;
+
+  flex-grow: 1;
+  align-self: flex-end;
+  animation: moveToLeft 1.5s 1s;
+
+  &__text-box {
+    grid-column: 1/-1;
+
+    border-bottom: 1px solid var(--color-grey-dark-2);
+    padding-bottom: 4rem;
+  }
+
+  &__text {
+    font-size: 2rem;
+    line-height: 1.6;
+    font-weight: 500;
+    color: var(--color-grey-dark-4);
+    padding-top: 2rem;
+    padding-right: 4.2rem;
+  }
+}
+
+.programming-services {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  .info-text {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.6;
+    color: var(--color-grey-dark-4);
+    width: 80%;
+  }
+}
